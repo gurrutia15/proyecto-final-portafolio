@@ -50,10 +50,8 @@ npm run dev
 
 💡 Los cambios se guardan directamente en Firestore y se reflejan al instante.
 
-## Credenciales de prueba
-
-- Email: admin@admin.com
-- Contraseña: admin123
+## GitHub Page
+https://gurrutia15.github.io/proyecto-final-portafolio/
 
 ## Enlace de acceso
 👉 https://gurrutia15.github.io/proyecto-final-portafolio/
