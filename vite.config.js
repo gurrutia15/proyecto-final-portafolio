@@ -5,6 +5,7 @@ import path from 'path'; // Necesario si usas path.resolve
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/proyecto-final-portafolio/',
   plugins: [vue()],
   resolve: {
     alias: {
