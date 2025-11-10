@@ -86,19 +86,7 @@ const handleLogout = async () => {
   router.push({ name: 'home', query: {logged_out: '1'} })
 }
 </script>
-<!-- 
-<script setup>
-import { useAuth } from '@/composables/useAuth'
-import { useRouter } from 'vue-router'
 
-const { user, logout: authLogout } = useAuth() // 👈 destructuring reactivo
-const router = useRouter()
-
-const handleLogout = async () => {
-  await authLogout()
-  // router.push({ name: 'home' })
-}
-</script> -->
 
 <style scoped>
 /* Opcional: asegurar que el navbar ocupe todo el ancho */
