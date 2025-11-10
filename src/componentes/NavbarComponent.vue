@@ -18,29 +18,7 @@
 
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <!-- <li class="nav-item">
-            <router-link class="nav-link" to="/">Home</router-link>
-          </li>
-          <li class="nav-item">
-            <router-link class="nav-link" to="/about">About</router-link>
-          </li>
-          <li class="nav-item dropdown">
-            <a
-              class="nav-link dropdown-toggle"
-              href="#"
-              role="button"
-              data-bs-toggle="dropdown"
-              aria-expanded="false"
-            >
-              Secciones
-            </a>
-            <ul class="dropdown-menu">
-              <li><router-link class="dropdown-item" to="/profile">Perfil</router-link></li>
-              <li><router-link class="dropdown-item" to="/project">Proyectos</router-link></li>
-              <li><hr class="dropdown-divider" /></li>
-              <li><router-link class="dropdown-item" to="/hability">Habilidades</router-link></li>
-            </ul>
-          </li> -->
+          
         </ul>
 
         <!-- Login / Menú de usuario -->
@@ -89,7 +67,6 @@ const handleLogout = async () => {
 
 
 <style scoped>
-/* Opcional: asegurar que el navbar ocupe todo el ancho */
 nav.navbar {
   width: 100%;
 }

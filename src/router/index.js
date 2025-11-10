@@ -19,7 +19,7 @@ const router = createRouter({
 router.beforeEach(async (to) => {
     const { user, waitForAuthReady } = useAuth();
     await waitForAuthReady();
-    // console.log('Router Guard - User:', user.value);
+    console.log('Router Guard - User:', user.value);
 
     if (to.meta.requiresAuth && !user.value) {
         return { name: 'login', query: { redirect: to.fullPath } };
